@@ -16,7 +16,9 @@ class EmailAddressParser
   
   def parse
     @emails.split(",").map do |email|
-      email
+    binding.pry
+    end
+      # email
     # @emails.split "  "
   # parser.uniq!
     # addresses << parser_csv
