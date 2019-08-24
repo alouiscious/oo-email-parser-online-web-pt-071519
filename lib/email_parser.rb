@@ -15,7 +15,7 @@ class EmailAddressParser
   end
   
   def parse
-    @emails.split ", "
+    @emails.split ","
     # @emails.split "  "
   # parser.uniq!
     # addresses << parser_csv
