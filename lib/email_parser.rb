@@ -15,7 +15,6 @@ class EmailAddressParser
   end
   
   def parse
-    addresses = []
     @emails.split ", "
     # @emails.split "  "
   # parser.uniq!
