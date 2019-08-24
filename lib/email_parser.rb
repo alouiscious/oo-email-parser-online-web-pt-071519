@@ -15,7 +15,7 @@ class EmailAddressParser
   end
   
   def parse
-    @emails.split(",")
+    @emails.split","
     addresses = @emails.split(",").map do |email|
      email.split " "
     end
