@@ -18,7 +18,7 @@ class EmailAddressParser
     addresses = @emails.split(",").map do |email|
      email.split " "
     end
-    binding.pry
+    addresses.flatten.uniq!
       # email
     # @emails.split "  "
   # parser.uniq!
