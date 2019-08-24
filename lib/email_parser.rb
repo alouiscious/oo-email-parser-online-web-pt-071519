@@ -16,9 +16,8 @@ class EmailAddressParser
   
   def parse
     addresses = []
-    binding.pry
     @emails.split ", "
-    @emails.split "  "
+    # @emails.split "  "
   # parser.uniq!
     # addresses << parser_csv
   # addresses
