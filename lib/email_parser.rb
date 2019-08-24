@@ -15,15 +15,11 @@ class EmailAddressParser
   end
   
   def parse
+    @emails.split(",")
     addresses = @emails.split(",").map do |email|
      email.split " "
     end
-    addresses.flatten.uniq!
-      # email
-    # @emails.split "  "
-  # parser.uniq!
-    # addresses << parser_csv
-  # addresses
+
     
 
     
